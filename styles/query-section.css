@@ -1,0 +1,311 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-bg-color: #4717ff;
+  --active-component-background-color: #5b31fd;
+  --query-section-bg-color: #e8ecff;
+  --padding-from-left-in-superParent-component: 5vw;
+  --padding-from-right-in-superParent-component: 5vw;
+  --margin-top-in-superParent-component: 3vmax;
+}
+
+@media screen and (min-width: 80.01em) and (max-width: 96em) {
+  [class="faq-section"] {
+    padding-left: var(--padding-from-left-in-superParent-component);
+    margin-top: var(--margin-top-in-superParent-component);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--query-section-bg-color);
+  }
+
+  [class="faq-content"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 40%;
+  }
+  [class="faq-content"] > h2 {
+    font-size: xx-large;
+  }
+  [class="faq-content"] :nth-child(2) {
+    color: black;
+    font-weight: 400;
+  }
+  [class="faq-content"] :nth-child(3) {
+    font-size: large;
+    color: black;
+  }
+  [class="faq-content"] :nth-child(4) > button {
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-size: larger;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+
+  img[alt="faq-image"] {
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 62.01em) and (max-width: 80em) {
+  [class="faq-section"] {
+    padding-left: var(--padding-from-left-in-superParent-component);
+    margin-top: var(--margin-top-in-superParent-component);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--query-section-bg-color);
+  }
+
+  [class="faq-content"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 50%;
+  }
+  [class="faq-content"] > h2 {
+    font-size: x-large;
+  }
+  [class="faq-content"] :nth-child(2) {
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+  }
+  [class="faq-content"] :nth-child(3) {
+    font-size: medium;
+    color: black;
+  }
+  [class="faq-content"] :nth-child(4) > button {
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  [class="faq-image"]
+  {
+    display: flex;
+    justify-content: center;
+  }
+  img[alt="faq-image"] {
+    object-fit: cover;
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 57.01em) and (max-width: 62em) {
+  [class="faq-section"] {
+    margin-top: var(--margin-top-in-superParent-component);
+    padding-left: var(--padding-from-left-in-superParent-component);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--query-section-bg-color);
+  }
+
+  [class="faq-content"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 50%;
+  }
+  [class="faq-content"] > h2 {
+    font-size: x-large;
+  }
+  [class="faq-content"] :nth-child(2) {
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+  }
+  [class="faq-content"] :nth-child(3) {
+    font-size: medium;
+    color: black;
+  }
+  [class="faq-content"] :nth-child(4) > button {
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+
+  img[alt="faq-image"] {
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 48.01em) and (max-width: 57em) {
+  [class="faq-section"] {
+    padding-left: var(--padding-from-left-in-superParent-component);
+    margin-top: var(--margin-top-in-superParent-component);
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    background-color: var(--query-section-bg-color);
+    width: 100%;
+  }
+
+  [class="faq-content"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-width: 40vw;
+    gap: 1rem;
+    padding: 1vmax;
+  }
+  [class="faq-content"] > h2 {
+    font-size: x-large;
+  }
+  [class="faq-content"] :nth-child(2) {
+    color: black;
+    font-weight: 400;
+    font-size: small;
+  }
+  [class="faq-content"] :nth-child(3) {
+    font-size: medium;
+    color: black;
+  }
+  [class="faq-content"] :nth-child(4) > button {
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  [class="faq-image"] {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  img[alt="faq-image"] {
+    object-fit: cover;
+    width: 100%;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 30.01em) and (max-width: 48em) {
+  [class="faq-section"] {
+    padding-left: var(--padding-from-left-in-superParent-component);
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+    background-color: var(--query-section-bg-color);
+  }
+
+  [class="faq-content"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* min-width: 40vw; */
+    gap: 1rem;
+    order: 2;
+    padding: 1vmax;
+  }
+  [class="faq-content"] > h2 {
+    font-size: x-large;
+  }
+  [class="faq-content"] :nth-child(2) {
+    color: black;
+    font-weight: 400;
+    font-size: small;
+  }
+  [class="faq-content"] :nth-child(3) {
+    font-size: medium;
+    color: black;
+  }
+  [class="faq-content"] :nth-child(4) > button {
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  [class="faq-image"] {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* text-align: center; */
+
+    display: flex;
+    justify-content: center;
+
+  }
+  img[alt="faq-image"] {
+    object-fit: cover;
+    width:70%;
+  }
+}
+
+@media screen and (min-width: 15.01em) and (max-width: 30em) {
+  [class="faq-section"] {
+    margin-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--query-section-bg-color);
+    width: 100%;
+  }
+
+  [class="faq-content"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* min-width: 40vw; */
+    gap: 1rem;
+    order: 2;
+    padding: 1vmax;
+  }
+  [class="faq-content"] > h2 {
+    font-size: x-large;
+  }
+  [class="faq-content"] :nth-child(2) {
+    color: black;
+    font-weight: 400;
+    font-size: small;
+  }
+  [class="faq-content"] :nth-child(3) {
+    font-size: medium;
+    color: black;
+  }
+  [class="faq-content"] :nth-child(4) > button {
+    background-color: var(--primary-bg-color);
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  [class="faq-image"] {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  img[alt="faq-image"] {
+    object-fit: cover;
+    width: 100%;
+  }
+}

@@ -1,0 +1,288 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-bg-color: #4717ff;
+  --active-component-background-color: #5b31fd;
+  --query-section-bg-color: #e8ecff;
+  --padding-from-left-in-superParent-component: 5vw;
+  --padding-from-right-in-superParent-component: 5vw;
+  --margin-top-in-superParent-component: 3vmax;
+  --download-section-bg-color: #e9edff;
+}
+
+@media screen and (min-width: 80.01em) and (max-width: 96em) {
+  [class="download-section"] {
+    display: flex;
+    min-height: 20vh;
+    padding-left: var(--padding-from-left-in-superParent-component);
+    padding-right: var(--padding-from-right-in-superParent-component);
+    align-items: center;
+    justify-content: space-between;
+  }
+  [class="download-content"] > h1 > span {
+    font-weight: 300;
+  }
+  [class="download-email"] {
+    background-color: var(--download-section-bg-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  input[placeholder="Enter your email address"] {
+    height: 48px;
+    width: 100%;
+    background: none;
+    border: none;
+    padding-left: 0.75rem;
+    font-weight: bold;
+    text-decoration-color: black;
+    outline: none;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    padding: 0.25rem;
+    overflow: hidden;
+  }
+
+  form > button {
+    border: none;
+    background: var(--primary-bg-color);
+    outline: none;
+    color: white;
+    font-size: large;
+    padding-left: 4%;
+    padding-right: 10%;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 62.01em) and (max-width: 80em) {
+  [class="download-section"] {
+    display: flex;
+    min-height: 20vh;
+    padding-left: var(--padding-from-left-in-superParent-component);
+    padding-right: var(--padding-from-right-in-superParent-component);
+    align-items: center;
+    justify-content: space-between;
+  }
+  [class="download-content"] > h1 > span {
+    font-weight: 300;
+  }
+  [class="download-email"] {
+    background-color: var(--download-section-bg-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+  }
+  input[placeholder="Enter your email address"] {
+    height: 42px;
+    width: 100%;
+    background: none;
+    border: none;
+    padding-left: 0.75rem;
+    font-weight: bold;
+    text-decoration-color: black;
+    outline: none;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    padding: 0.25rem;
+    overflow: hidden;
+  }
+
+  form > button {
+    border: none;
+    background: var(--primary-bg-color);
+    outline: none;
+    color: white;
+    font-size: larger;
+    padding-left: 4%;
+    padding-right: 10%;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 48.01em) and (max-width: 62em) {
+  [class="download-section"] {
+    display: flex;
+    min-height: 20vh;
+    padding-left: var(--padding-from-left-in-superParent-component);
+    padding-right: var(--padding-from-right-in-superParent-component);
+    align-items: center;
+    justify-content: space-between;
+  }
+  [class="download-content"] > h1 {
+    font-size: x-large;
+  }
+
+  [class="download-content"] > h1 > span {
+    font-weight: 300;
+  }
+  [class="download-email"] {
+    background-color: var(--download-section-bg-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+  }
+  input[placeholder="Enter your email address"] {
+    height: 40px;
+    width: 100%;
+    background: none;
+    border: none;
+    padding-left: 0.75rem;
+    font-weight: bold;
+    text-decoration-color: black;
+    outline: none;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+    padding: 0.25rem;
+    overflow: hidden;
+  }
+
+  form > button {
+    border: none;
+    background: var(--primary-bg-color);
+    outline: none;
+    color: white;
+    font-size: large;
+    padding-left: 4%;
+    padding-right: 10%;
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 30.01em) and (max-width: 48em) {
+  [class="download-section"] {
+    display: flex;
+    min-height: 20vh;
+    padding-left: var(--padding-from-left-in-superParent-component);
+    padding-right: var(--padding-from-right-in-superParent-component);
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+  }
+  [class="download-content"] > h1 {
+    font-size: x-large;
+  }
+
+  [class="download-content"] > h1 > span {
+    font-weight: 300;
+  }
+  [class="download-email"] {
+    background-color: var(--download-section-bg-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  input[placeholder="Enter your email address"] {
+    height: 36px;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 2px;
+    padding-left: 0.75rem;
+    font-weight: bold;
+    text-decoration-color: black;
+    outline: none;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.25rem;
+    overflow: hidden;
+  }
+
+  form > button {
+    border: none;
+    background: var(--primary-bg-color);
+    outline: none;
+    color: white;
+    font-size: small;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+  }
+}
+
+
+@media screen and (min-width: 15.01em) and (max-width: 30em) {
+  [class="download-section"] {
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    padding-left: var(--padding-from-left-in-superParent-component);
+    padding-right: var(--padding-from-right-in-superParent-component);
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  [class="download-content"] > h1 {
+    font-size: x-large;
+  }
+
+  [class="download-content"] > h1 > span {
+    font-weight: 300;
+  }
+  [class="download-email"] {
+    background-color: var(--download-section-bg-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  input[placeholder="Enter your email address"] {
+    height: 36px;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 2px;
+    padding-left: 0.75rem;
+    font-weight: bold;
+    text-decoration-color: black;
+    outline: none;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.25rem;
+    overflow: hidden;
+  }
+
+  form > button {
+    border: none;
+    background: var(--primary-bg-color);
+    outline: none;
+    color: white;
+    font-size: small;
+    padding-left: 4%;
+    padding-right: 12%;
+    border-radius: 2rem;
+  }
+}
